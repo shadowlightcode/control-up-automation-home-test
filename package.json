@@ -1,0 +1,22 @@
+{
+  "name": "control-up-automation-home-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "npx playwright test --project=api-tests",
+    "test:ui": "npx playwright test --project=ui-tests",
+    "prettier": "npx prettier . --check",
+    "prettier:fix": "npm run prettier -- --write",
+    "format": "npm run prettier:fix"
+  },
+  "keywords": [],
+  "author": "MSV",
+  "license": "ISC",
+  "description": "ControlUP - Automation Home Test",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0",
+    "dotenv": "^17.2.1",
+    "prettier": "^3.3.3"
+  }
+}
