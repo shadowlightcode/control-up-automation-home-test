@@ -13,8 +13,8 @@
 # How to install & run tests 
 
 ### Clone the repo
-`git clone https://github.com/your-username/automation-project.git`
-`cd automation-project`
+`git clone https://github.com/shadowlightcode/control-up-automation-home-test.git`
+`cd control-up-automation-home-test`
 
 ### Install dependencies
 1. npm install
